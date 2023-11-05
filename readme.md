@@ -20,12 +20,14 @@ Code to send bulk emails from a google sheet with randomised delay in between ea
         <th style="border:1px white solid">Attachments</th>
     </tr>
 </table>
+
 5. Go to **Extensions** menu and select **Appscript**
 6. In the **Code.gs** file paste the code from <a href="./Code.gs">Code.gs</a>
 7. Make a new file **Constants.gs** and paste the code from <a href="./Constants.gs">Constants.gs</a>
-8. Save the project
-9. Go to the google sheet and refresh the page
-10. Now you will see a menu called **Email** with an option **Send Email**
+8. In the Services section in left sidebar add two services GMail API and Drive API
+9. Save the project
+10. Go to the google sheet and refresh the page
+11. Now you will see a menu called **Email** with an option **Send Email**
 
 ## Configurable Elements
 
