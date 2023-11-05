@@ -4,7 +4,7 @@ Code to send bulk emails from a google sheet with randomised delay in between ea
 
 ## Environment Setup
 
-1. Make a <a href="https://sheet.new" target="blank">new sheet</a>
+1. Make a <a href="https://sheet.new" target="_blank">new sheet</a>
 2. Rename the first subsheet to `Email Configuration`
 3. Add another sheet and rename it to `Errors`
 4. In the `Email Configuration` subsheet add the following headers
